@@ -1,12 +1,15 @@
 import './App.css';
 import SideBar from './componentes/SideBar';
 import NavBar from './componentes/NavBar';
+import FormReservas from './componentes/FormReservas';
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
       <NavBar />
+      <SideBar />
+      <FormReservas />
+      
     </div>
   );
 }

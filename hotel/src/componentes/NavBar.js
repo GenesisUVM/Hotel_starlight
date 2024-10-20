@@ -1,14 +1,13 @@
-
+import './NavBar.css'
+import logo from '../img/logo.png'
 
 function NavBar(){
     return(
-        <div>
-            <nav>
-                <img></img>
-                <h2></h2>
-            </nav>
+        <nav className="bar">
+            <img src={logo} className="logoimg" alt="logo del hotel"></img>
+            <h2 className="titulo"> Hotel Starlight</h2>
+        </nav>
 
-        </div>
     )
 };
 
