@@ -1,0 +1,13 @@
+.sideBarContainer{
+    background: #D7F9FF;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem
+}
+
+.sideBarContainer ul{
+    list-style: none;
+    color: #0E1C36;
+}
